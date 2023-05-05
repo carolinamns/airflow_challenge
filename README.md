@@ -71,4 +71,4 @@ airflow standalone
 - `/data/northwind_small.sqlite`: banco de dados SQLite utilizado no desafio.
 - `/airflow-data/dags/airflow_challenge.py`: arquivo Python que define a DAG.
 - `/airflow-data/dags/extract_and_count.py`: arquivo Python com as funções utilizadas na DAG.
-- `final_output.txt`: arquivo de saída gerado pelo DAG contendo o resultado final.
+- `/output/final_output.txt`: arquivo de saída gerado pelo DAG contendo o resultado final.
