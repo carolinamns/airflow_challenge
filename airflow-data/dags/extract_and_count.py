@@ -35,7 +35,7 @@ def calculate_count():
     Janeiro". The result is saved to a text file named "count.txt".
     """
     # Read "output_orders.csv" file
-    orders_data = pd.read_csv("/home/carol/airflow_challenge_carolina/output_orders.csv")
+    orders_data = pd.read_csv(file path)
 
     # Read "OrderDetail" table from the Northwind SQLite database
     sqlite_hook = SqliteHook(sqlite_conn_id="sqlite")
